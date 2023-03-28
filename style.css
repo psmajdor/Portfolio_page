@@ -1,0 +1,123 @@
+:root {
+    --color1: rgb(39, 123, 142);
+    --color2: rgb(104, 200, 219);
+}
+
+* {
+    font-family: 'Alkatra', sans-serif;
+    line-height: 0.9;
+}
+
+body {
+    margin: 0;
+}
+
+hr {
+    border-top: 1px solid var(--color2);
+    margin: 0;
+}
+
+/* Navigation bar */
+
+.nav__bar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+.name__logo {
+    font-size: 24px;
+    margin: 0px 12px;
+    color: var(--color1);
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link-anchor {
+    margin: 0 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 500ms;
+}
+
+.nav__link-anchor-contact {
+    background-color: var(--color1);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.nav__link-anchor-other:hover {
+    text-shadow: 5px -15px 2px var(--color2);
+}
+
+.nav__link-anchor-contact:hover {
+    background-color: var(--color2);
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+/* About me */
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me__picture-field {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.about-me__picture-field > img {
+    width: 100%;
+}
+
+.about-me__info-title {
+    margin-bottom: 10px;
+}
+.about-me__info-title > span {
+    color: var(--color1);
+}
