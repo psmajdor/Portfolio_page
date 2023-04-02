@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <section id="about-me">
         <div class="nav__bar">
             <nav>
                 <div class="name__logo">Patryk Smajdor</div>
                 <ul class="nav__link-list">
-                    <li>
-                        <a href="" class="nav__link-anchor nav__link-anchor-other">Skills</a>
+                    <li class="nav__link">
+                        <a href="#skills" class="
+                        nav__link-anchor nav__link-anchor-other
+                        ">Skills</a>
                     </li>
-                    <li>
-                        <a href="" class="nav__link-anchor nav__link-anchor-other">Projects</a>
+                    <li class="nav__link">
+                        <a href="#projects" class="
+                        nav__link-anchor nav__link-anchor-other
+                        ">Projects</a>
                     </li>
-                    <li>
-                        <a href="" class="nav__link-anchor nav__link-anchor-contact">Contact</a>
+                    <li class="nav__link">
+                        <a href="mailto:patryk.smajdor5@gmail.com" class="
+                        nav__link-anchor nav__link-anchor-contact
+                        ">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -32,18 +41,161 @@
         <div class="flex flex-1">
             <div class="about-me__info row">
                 <div class="about-me__info-container">
-                    <figure class="about-me__picture-field">
-                        <img src="./assets/giorno.jpg" alt="My picture :D">
-                    </figure>
+                    <div class="about-me__picture-frame">
+                        <figure class="about-me__picture-field">
+                            <img src="./assets/giorno.jpg" alt="My picture :D" />
+                        </figure>
+                    </div>
                     <h1 class="about-me__info-title">
                         Hello There! I'm <span>Patryk Smajdor</span>
                     </h1>
                     <p class="about-me__info-paragraph">
-                        I am aspiring frontend developer, very passionate for making functional and beautiful web pages and also applications that would positively impact everyone. I enjoy learning and I am enthusiastic about studying and applying new functionalities or properties.
+                        I am an aspiring frontend developer, very passionate for making functional and beautiful web
+                        pages and also applications that would positively impact everyone. I enjoy learning and I am
+                        enthusiastic about studying and applying new functionalities or properties.
                     </p>
+                    <div class="about-me__links">
+                        <a href="https://github.com/psmajdor" class="about-me__link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:patryk.smajdor5@gmail.com" class="about-me__link" target="_blank">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                        <a href="./assets/Patryk_Smajdor_CV.pdf" class="about-me__link" target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                    </div>
+                    <figure class="about-me__img-container">
+                        <img src="./assets/undraw_proud_coder_re_exuy.svg" class="about-me__img" alt="" />
+                    </figure>
                 </div>
             </div>
         </div>
     </section>
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-title">This is my <span class="text-color">technology stack</span></h1>
+                <div class="skills-list">
+                    <div class="skill">
+                        <figure class="skill__img-wrapper">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                                class="skill__img" alt="html-logo" />
+                        </figure>
+                        <span class="skill__name">HTML</span>
+                    </div>
+                    <div class="skill">
+                        <figure class="skill__img-wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" class="skill__img"
+                                alt="css-logo" />
+                        </figure>
+                        <span class="skill__name">CSS</span>
+                    </div>
+                    <div class="skill">
+                        <figure class="skill__img-wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                                class="skill__img" alt="js-logo" />
+                        </figure>
+                        <span class="skill__name">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="section-subtitle">Learning</h2>
+                <div class="skills-list">
+                    <div class="skill">
+                        <figure class="skill__img-wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                                class="skill__img" alt="react-logo" />
+                        </figure>
+                        <span class="skill__name">React</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-title">Here are some of my <span class="text-color">projects</span></h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/project1.png" class="project__img" alt="Project1">
+                            <div class="project__description">
+                                <h3 class="project__description-title">Page project</h3>
+                                <h4 class="project__description-subtitle">HTML, CSS, JavaScript</h4>
+                                <p class="project__description-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quae, quas mollitia consequuntur iusto reprehenderit saepe
+                                    similique voluptatibus quos, nam illo hic ratione vel laudantium quisquam aperiam
+                                    consequatur ipsa. Corrupti, voluptatibus.
+                                </p>
+                                <div class="project__description-links">
+                                    <a href="" class="project__description-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="" class="project__description-link" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/project1.png" class="project__img" alt="Project1">
+                            <div class="project__description">
+                                <h3 class="project__description-title">Page project</h3>
+                                <h4 class="project__description-subtitle">HTML, CSS, JavaScript</h4>
+                                <p class="project__description-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quae, quas mollitia consequuntur iusto reprehenderit saepe
+                                    similique voluptatibus quos, nam illo hic ratione vel laudantium quisquam aperiam
+                                    consequatur ipsa. Corrupti, voluptatibus.
+                                </p>
+                                <div class="project__description-links">
+                                    <a href="" class="project__description-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="" class="project__description-link" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row footer__row">
+            <a href="#" class="footer__anchor">
+                <figure class="footer__logo">
+                    <img src="./assets/giorno.jpg" class="footer__logo-img" alt="">
+                </figure>
+                <span class="footer__logo-goback">
+                    Top
+                    <i class="fas fa-arrow-up"></i>
+                </span>
+            </a>
+            <div class="footer__social-list">
+                <a href="https://github.com/psmajdor" class="
+                footer__social-link
+                link__hover-effect
+                " target="_blank">GitHub</a>
+                <a href="mailto:patryk.smajdor5@gmail.com" class="
+                footer__social-link
+                link__hover-effect
+                " target="_blank">Email</a>
+                <a href="./assets/Patryk_Smajdor_CV.pdf" class="
+                footer__social-link
+                link__hover-effect
+                " target="_blank">Resume</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
