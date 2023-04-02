@@ -86,7 +86,7 @@ li {
     padding: 30px 0;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     background-color: rgb(238, 243, 246);
 }
 
@@ -108,7 +108,7 @@ section:nth-child(even) {
 }
 
 nav {
-    height: 100px;
+    height: 90px;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
