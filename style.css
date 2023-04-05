@@ -190,7 +190,7 @@ nav {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.3);
-    animation: animate-profile-pic 800ms 200ms backwards;
+    animation: animate-profile-pic 1000ms 500ms backwards;
     transition: 500ms;
 }
 
@@ -216,7 +216,7 @@ nav {
 
 .about-me__info-title {
     margin-bottom: 10px;
-    animation: fade-up 650ms 400ms backwards;
+    animation: fade-up 650ms 1000ms backwards;
 }
 .about-me__info-title > span {
     color: var(--color1);
@@ -224,11 +224,11 @@ nav {
 
 .about-me__info-paragraph {
     font-size: 20px;
-    animation: fade-up 650ms 500ms backwards;
+    animation: fade-up 650ms 1300ms backwards;
 }
 
 .about-me__links {
-    animation: fade-up 650ms 600ms backwards;
+    animation: fade-up 650ms 1500ms backwards;
 }
 
 .about-me__link {
@@ -258,7 +258,7 @@ nav {
 
 .about-me__img {
     width: 100%;
-    animation: fade-in 1200ms 800ms backwards;
+    animation: fade-in 1200ms 2000ms backwards;
 }
 
 @keyframes fade-in {
