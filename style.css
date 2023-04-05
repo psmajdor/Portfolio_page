@@ -1,8 +1,8 @@
 :root {
-    --color1: rgb(42, 91, 155);
-    --color2: rgb(104, 173, 219);
-    --footer_color: rgb(11, 18, 47);
-    --odd_sections_color: rgb(238, 243, 246);
+    --color1: #05695F;
+    --color2: #168F8D;
+    --footer_color: #092121;
+    --odd_sections_color: #EEF3F6;
 }
 
 * {
@@ -191,6 +191,11 @@ nav {
     overflow: hidden;
     box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.3);
     animation: animate-profile-pic 800ms 200ms backwards;
+    transition: 500ms;
+}
+
+.about-me__picture-field:hover {
+    transform: scale(1.4);
 }
 
 @keyframes animate-profile-pic {
