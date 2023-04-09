@@ -121,9 +121,23 @@ nav {
     padding: 0 12px;
 }
 
-.name__logo {
+.name__logo-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name__logo-img {
+    margin-top: 10px;
+}
+
+.name__logo-img > img {
+    width: 80px;
+    height: 80px;
+}
+
+.name__logo-text {
     font-size: 24px;
-    margin: 0px 12px;
     color: var(--color1);
     font-weight: 600;
 }
@@ -425,8 +439,8 @@ footer {
 }
 
 .footer__logo-img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .footer__anchor {
